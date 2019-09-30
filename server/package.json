@@ -6,9 +6,7 @@
   "scripts": {
     "start-dev": "NODE_ENV=development nodemon index.js",
     "start": "NODE_ENV=production node index.js",
-    "seed": "node ../script/seed.js",
-    "test": "npx jest",
-    "postinstall": "touch ../secrets.js",
+    "seed": "node ../script/seed.js"
   },
   "author": "",
   "license": "ISC",
