@@ -8,16 +8,16 @@ import App from './app'
 
 // establishes socket connection
 import './socket'
-
-function app() {
-  return (
-    <Provider store={store}>
-      <Router history={history}>
-        <App />
-      </Router>
-    </Provider>
-  )
-}
+//
+// function app() {
+//   return (
+//     <Provider store={store}>
+//       <Router history={history}>
+//         <App />
+//       </Router>
+//     </Provider>
+//   )
+// }
 
 ReactDOM.render(
   <Provider store={store}>
